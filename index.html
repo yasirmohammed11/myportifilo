@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ياسر محمد - Portfolio</title>
+<meta name="description" content="Yasir Mohammed - Software Engineer and Full Stack Developer from Sudan.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 64 64%27%3E%3Crect width=%2764%27 height=%2764%27 rx=%2714%27 fill=%27%236d5efc%27/%3E%3Ctext x=%2732%27 y=%2742%27 font-size=%2728%27 font-family=%27Arial%27 font-weight=%27700%27 text-anchor=%27middle%27 fill=%27white%27%3EYM%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<header>
+<div class="bar">
+ <a class="brand" href="#top"><span class="logo">YM</span><span><b data-en="Yasir Mohammed">ياسر محمد</b><small data-en="Software Engineer / Full Stack">مهندس برمجيات / Full Stack</small></span></a>
+ <nav id="nav">
+  <a href="#about" data-en="About">نبذة</a><a href="#skills" data-en="Skills">المهارات</a><a href="#journey" data-en="Journey">المسيرة</a><a href="#projects" data-en="Projects">المشاريع</a><a href="#contact" data-en="Contact">تواصل</a>
+ </nav>
+ <button class="ib" id="menu" aria-label="Menu">☰</button>
+ <button class="ib" id="theme" aria-label="Theme">☀</button>
+ <button class="ib" id="lang">EN</button>
+</div>
+</header>
+
+<main id="top">
+<section class="hero"><div class="wrap">
+ <span class="hi" data-en="Hello, I'm">مرحبًا، أنا</span>
+ <h1 data-en="Yasir Mohammed">ياسر محمد</h1>
+ <div class="role">Software Engineer / <span>Full Stack</span></div>
+ <p class="d" data-en="I build responsive web apps with HTML, CSS, JavaScript, PHP and MySQL, with clean design and practical features.">أبني تطبيقات ويب متجاوبة باستخدام HTML وCSS وJavaScript وPHP وMySQL، بتصميم نظيف ووظائف عملية.</p>
+ <div class="btns">
+  <a class="btn p" href="#projects" data-en="View projects">استعرض المشاريع</a>
+  <a class="btn" href="https://drive.google.com/file/d/1ZYF6aQkdcZOGrNGRV7vz3LzLhWEc3JbT/view?usp=drivesdk" target="_blank" rel="noopener" data-en="Resume (CV)">السيرة الذاتية (CV)</a>
+  <div class="soc">
+   <a href="https://www.linkedin.com/in/yasir-mohammed-166783318" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+   <a href="https://github.com/yasirmohammed11" target="_blank" rel="noopener" aria-label="GitHub">GH</a>
+   <a class="btn" style="padding:0 26px;height:54px" href="#contact" data-en="Contact me">تواصل معي</a>
+  </div>
+ </div>
+ <div class="orb">
+  <img src="assets/images/my-avatar.png" alt="Yasir Mohammed">
+  <span class="chip">PHP</span><span class="chip">JavaScript</span><span class="chip">MySQL</span><span class="chip">Python</span><span class="chip">HTML5</span>
+ </div>
+ <div class="code">
+  <header><span>CLI</span><span class="tab">profile.json</span><span class="dots"><i style="background:#3b82f6"></i><i style="background:#22d3ee"></i><i style="background:#e2e8f0"></i></span></header>
+<pre><span class="k">const</span> <span class="n">developer</span> = {
+  name: <span class="s">"Yasir Mohammed"</span>,
+  role: <span class="s">"Software Engineer"</span>,
+  coreStack: [<span class="s">"PHP"</span>, <span class="s">"MySQL"</span>, <span class="s">"JavaScript"</span>],
+  location: <span class="s">"Sudan"</span>,
+  openToWork: <span class="n">true</span>
+};</pre>
+ </div>
+</div></section>
+
+<div class="strip"><div class="track" id="track"></div></div>
+
+<section id="about"><div class="wrap">
+ <span class="tag" data-en="Who am I">من أنا</span>
+ <div class="about">
+  <div>
+   <div class="ph"><img src="assets/images/my-avatar.png" alt=""><div><b data-en="Yasir Mohammed">ياسر محمد</b><span class="mono">Software Engineer</span></div></div>
+   <div class="info">
+    <div class="row"><em>📍</em><div><small data-en="Location">الموقع</small><span data-en="Sudan">السودان</span></div></div>
+    <div class="row"><em>🎓</em><div><small data-en="Education">التعليم</small><span data-en="B.Sc. Software Engineering, Jordanian Sudanese College of Science and Technology">بكالوريوس هندسة البرمجيات، الكلية الأردنية السودانية للعلوم والتكنولوجيا</span></div></div>
+    <div class="row"><em>🗣</em><div><small data-en="Languages">اللغات</small><span data-en="Arabic, English">العربية، الإنجليزية</span></div></div>
+   </div>
+  </div>
+  <div>
+   <p class="lead" data-en="I'm <b>Yasir Mohammed</b>, a passionate software engineer and full stack developer from Sudan. I enjoy building modern, user-friendly web apps that combine clean design with practical functionality.">أنا <b>ياسر محمد</b>، مهندس برمجيات ومطوّر Full Stack من السودان، أحب بناء تطبيقات ويب عصرية وسهلة الاستخدام تجمع بين التصميم النظيف والوظائف العملية.</p>
+   <p style="color:var(--mut)" data-en="Graduated in Software Engineering in 2025. My work covers frontend, PHP backend and MySQL databases, and I focus on maintainable code and continuous learning.">تخرجت في هندسة البرمجيات عام 2025. تشمل خبرتي الواجهات الأمامية، وتطوير الباك إند بـ PHP، وقواعد بيانات MySQL، وأركّز على كود قابل للصيانة والتعلّم المستمر.</p>
+   <div class="stats"><div><strong>+15</strong><small data-en="Projects">مشاريع</small></div><div><strong>9</strong><small data-en="Technologies">تقنيات</small></div><div><strong>2025</strong><small data-en="Graduated">التخرج</small></div></div>
+   <div class="feat"><div data-en="Responsive layouts for desktop, tablet and mobile">تصاميم متجاوبة مع الكمبيوتر والتابلت والجوال</div><div data-en="Hands-on full stack projects">مشاريع Full Stack عملية</div><div data-en="Comfortable working in Arabic and English">أتعامل بسهولة بالعربية والإنجليزية</div></div>
+   <a class="btn p" href="#contact" data-en="Let's talk about your project">يلا نتكلم في مشروع</a>
+  </div>
+ </div>
+</div></section>
+
+<section id="skills"><div class="wrap">
+ <h2 data-en="Skills &amp; Technologies">المهارات والتقنيات</h2><i></i>
+ <p class="sub" data-en="The languages and tools I use to build fast, reliable web apps.">اللغات والأدوات التي أستخدمها لبناء تطبيقات ويب سريعة وموثوقة.</p>
+ <div class="grid" id="skgrid"></div>
+</div></section>
+
+<section id="journey"><div class="wrap">
+ <h2 data-en="Journey">المسيرة</h2><i></i><p class="sub" data-en="Education and experience.">التعليم والخبرة.</p>
+ <div class="tl">
+  <h3 data-en="Education">التعليم</h3>
+  <details open><summary><span data-en="Software Engineering Degree"> بكالوريوس هندسة البرمجيات<time>2025</time></span></summary><p data-en="Jordanian Sudanese College of Science and Technology: computer science, web development and software design principles.">الكلية الأردنية السودانية للعلوم والتكنولوجيا: علوم الحاسوب وتطوير الويب ومبادئ تصميم البرمجيات.</p></details>
+ </div>
+ <div class="tl">
+  <h3 data-en="Experience">الخبرة</h3>
+  <details open><summary><span data-en="Full Stack Development">تطوير Full Stack<time>2023 — 2024</time></span></summary><p data-en="Built several personal projects with HTML, CSS, JavaScript, PHP and MySQL, focused on responsive, user-friendly interfaces.">بنيت عدة مشاريع شخصية بـ HTML وCSS وJavaScript وPHP وMySQL، مع التركيز على واجهات متجاوبة وسهلة الاستخدام.</p></details>
+  <details><summary><span data-en="Frontend Development">تطوير الواجهات الأمامية<time>2022 — 2023</time></span></summary><p data-en="Sharpened frontend skills by building responsive websites and interactive web apps.">طوّرت مهاراتي في الواجهات الأمامية ببناء مواقع متجاوبة وتطبيقات ويب تفاعلية.</p></details>
+ </div>
+</div></section>
+
+<section id="projects"><div class="wrap">
+ <h2 data-en="Projects">المشاريع</h2><i></i><p class="sub" data-en="A selection from my GitHub repositories.">مختارات من مستودعاتي على GitHub.</p>
+ <div class="flt" id="flt"></div>
+ <div class="pj" id="pj"></div>
+ <p style="text-align:center;margin-top:30px"><a class="btn" href="https://github.com/yasirmohammed11?tab=repositories" target="_blank" rel="noopener" data-en="All repositories on GitHub">كل المستودعات على GitHub</a></p>
+</div></section>
+
+<section id="contact"><div class="wrap">
+ <h2 data-en="Contact">تواصل</h2><i></i><p class="sub" data-en="Available for freelance work and web projects.">متاح لأعمال الفريلانس ومشاريع الويب.</p>
+ <div class="cc">
+  <div class="ct w"><div class="mono" style="color:#10b981">● ONLINE</div><h3 data-en="WhatsApp">واتساب</h3><p data-en="Quick chat for urgent questions.">محادثة سريعة للاستفسارات الفورية.</p><a class="btn wa" href="https://wa.me/249115931609" target="_blank" rel="noopener" data-en="Start chat">ابدأ المحادثة</a></div>
+  <div class="ct"><div class="mono" style="color:#60a5fa">INBOX</div><h3 data-en="Email">الإيميل</h3><p data-en="Formal inquiries, offers and projects.">استفسارات رسمية وعروض ومشاريع.</p><a class="btn em" href="mailto:yasirmhammed28@gmail.com" data-en="Send email">ابعت إيميل</a></div>
+  <form id="f">
+   <label><span data-en="Name">الاسم</span><input id="n" required></label>
+   <label><span data-en="Email">الإيميل</span><input id="e" type="email" required placeholder="name@example.com"></label>
+   <label><span data-en="Message">الرسالة</span><textarea id="m" rows="4" required></textarea></label>
+   <button class="btn p" type="submit" data-en="Send message">ابعت الرسالة</button>
+   <div style="display:flex;gap:12px"><a class="btn" style="flex:1;color:#10b981" href="https://wa.me/249115931609" target="_blank" rel="noopener">WhatsApp</a><a class="btn" style="flex:1" href="mailto:yasirmhammed28@gmail.com">Gmail</a></div>
+  </form>
+ </div>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+ <b style="color:var(--tx);font-size:1.3rem" data-en="Yasir Mohammed">ياسر محمد</b>
+ <p data-en="Web development, backend and databases.">تطوير مواقع الويب والباك إند وقواعد البيانات.</p>
+ <div class="soc">
+  <a href="mailto:yasirmhammed28@gmail.com" aria-label="Email">@</a>
+  <a href="https://www.linkedin.com/in/yasir-mohammed-166783318" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+  <a href="https://github.com/yasirmohammed11" target="_blank" rel="noopener" aria-label="GitHub">GH</a>
+  <a href="https://x.com/yasirmhammed5" target="_blank" rel="noopener" aria-label="X">X</a>
+  <a href="https://www.instagram.com/yasir_code" target="_blank" rel="noopener" aria-label="Instagram">IG</a>
+ </div>
+ <small data-en="© 2026 Yasir Mohammed. All rights reserved.">© 2026 ياسر محمد. جميع الحقوق محفوظة.</small>
+</div></footer>
+
+<div class="fab">
+ <button class="up" id="up" aria-label="Top">↑<svg viewBox="0 0 52 52"><circle cx="26" cy="26" r="24" stroke="var(--line)"/><circle id="ring" cx="26" cy="26" r="24" stroke="var(--a)" stroke-dasharray="151" stroke-dashoffset="151" stroke-linecap="round"/></svg></button>
+ <a class="wb" href="https://wa.me/249115931609" target="_blank" rel="noopener" aria-label="WhatsApp">✆</a>
+</div>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>
